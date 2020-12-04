@@ -1,0 +1,46 @@
+body {
+  margin:0 !important;
+  padding:0 !important;  
+  display:flex !important;
+  flex-direction:column !important;
+  justify-content:space-between !important;
+  min-height:100vh !important;
+}
+main {
+  flex:1 0 auto !important;  
+}
+.footer {
+  background:crimson !important;
+}
+.cp{
+	cursor: pointer;
+}
+main,body{
+	background: transparent !important;
+}
+h1,h2,h3,h4,h5{ word-break: break-all !important; }
+.toolbar{
+	display: none !important;
+}
+
+.card_search::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #fff;
+}
+.card_search:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color:    #fff;
+ opacity:  1;
+}
+.card_search::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color:    #fff;
+ opacity:  1;
+}
+.card_search:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color:    #fff;
+}
+.card_search::-ms-input-placeholder { /* Microsoft Edge */
+ color:    #fff;
+}
+
+.card_search::placeholder { /* Most modern browsers support this now. */
+ color:    #fff;
+}
